@@ -1,0 +1,100 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+body{
+    font-family: 'WebFont', Arial, sans-serif; 
+}
+
+#logos{
+    height: 100px;
+    margin-bottom: 10px;
+}
+#paw_logo{
+    width: 100px;
+    height: 100px;
+}
+#paw_logo_image{
+    width: 100px;
+    height: 100px;
+}
+#iiest_logo{
+    width: 75px;
+    height: 75px;
+}
+#iiest_logo_image{
+    width: 75px;
+    height: 75px;
+}
+
+
+#navbar{
+    background-color: rgb(47, 150, 209);
+}
+
+
+
+#main_content{
+    background-image: url("../images/textures/Optimized-leaf1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media(max-width: 940px) {
+    #main_content{
+      background-attachment: scroll;
+    }
+  }
+
+#google_form_container{
+    background-image: url("../images/textures/Optimized-wood2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#google_form{
+    height: 1300;
+}
+
+
+#payment_links_section{
+    background-image: url("../images/textures/Optimized-wood2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.payment_portal_images{
+    height: 200px;
+}
+.payment_card{
+    background-color: rgb(52, 226, 52);
+}
+
+
+#footer{
+    background-color: rgb(168, 168, 168);
+}
+#footer_title{
+    background-color: rgb(168, 168, 168);
+}
+#fb_logo{
+    width: 40px;
+    height: 40px;
+}
+#insta_logo{
+    width: 40px;
+    height: 40px;
+}
+#yt_logo{
+    width: 40px;
+    height: 40px;
+}

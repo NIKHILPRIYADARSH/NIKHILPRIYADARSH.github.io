@@ -1,0 +1,161 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+@font-face{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+body{
+    font-family: 'WebFont', Arial, sans-serif; 
+}
+
+#logos{
+    height: 100px;
+    margin-bottom: 10px;
+}
+#paw_logo{
+    width: 100px;
+    height: 100px;
+}
+#paw_logo_image{
+    width: 100px;
+    height: 100px;
+}
+#iiest_logo{
+    width: 75px;
+    height: 75px;
+}
+#iiest_logo_image{
+    width: 75px;
+    height: 75px;
+}
+
+
+#navbar{
+    background-color: rgb(47, 150, 209);
+}
+
+
+#main_content{
+    background-color: aqua;
+}
+#pics_section{
+    background-image: url("../images/nature/Optimized-springForest1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 20px;
+}
+@media(max-width: 940px) {
+    #pics_section{
+      background-attachment: scroll;
+    }
+  }
+#pics{
+    background-image: url("../images/textures/Optimized-wood2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel_images{
+    height: 600px;
+}
+
+
+#videos_section{
+    background-image: url("../images/nature/Optimized-forest1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-right: 20px;
+}
+@media(max-width: 940px) {
+    #videos_section{
+      background-attachment: scroll;
+    }
+  }
+#videos{
+    background-image: url("../images/textures/Optimized-wood2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card_class{
+    background-color: rgb(52, 226, 52);
+}
+
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(50%);
+    }
+  
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-50%);
+    }
+  }
+  
+  /* large - display 3 */
+  @media (min-width: 992px) {
+  
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33%);
+    }
+  
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33%);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+  
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  .carousel-inner .carousel-item-right,
+  .carousel-inner .carousel-item-left {
+    transform: translateX(0);
+  }
+
+
+#footer{
+    background-color: rgb(168, 168, 168);
+}
+#footer_title{
+    background-color: rgb(168, 168, 168);
+}
+#fb_logo{
+    width: 40px;
+    height: 40px;
+}
+#insta_logo{
+    width: 40px;
+    height: 40px;
+}
+#yt_logo{
+    width: 40px;
+    height: 40px;
+}
